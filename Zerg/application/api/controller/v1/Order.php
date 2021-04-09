@@ -12,6 +12,7 @@ namespace app\api\controller\v1;
 
 use app\api\controller\BaseController;
 use app\api\model\Order as OrderModel;
+use app\api\service\AccessToken;
 use app\api\service\Order as OrderService;
 use app\api\service\Token;
 use app\api\validate\IDMustBePositiveInt;

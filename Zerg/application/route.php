@@ -86,6 +86,9 @@ Route::post('api/:version/pay/concurrency', 'api/:version.Pay/notifyConcurrency'
 //Message
 Route::post('api/:version/message/delivery', 'api/:version.Message/sendDeliveryMsg');
 
+//最新订阅消息一次性
+Route::post('api/:version/message/subscribe', 'api/:version.Message/sendSubscribeMessage');
+
 
 
 //return [

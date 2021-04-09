@@ -8,6 +8,9 @@
 
 ① utils\config.js 文件中配置  Config.restUrl = 'http://host/api/v1/';
 
+> 如果需要发送订阅消息需要去 https://mp.weixin.qq.com/wxamp/newtmpl/tmpldetail?type=2&pri_tmpl_id=9a_vDpqEHWqgzcJsFOujainzjttkvx4ZT0BMid6mmgU&flag=undefined&token=498215385&lang=zh_CN
+> 配置好模板，在小程序 utils\config.js 文件中配置  Config.templateId = '模板ID';
+> Tp5 application\api\service\DeliveryMessage.php 增加发送方法
 # 四、部署流程 - TP5配置
 ① application\extra\wx.php 配置微信小程序 app_id app_secret
 
